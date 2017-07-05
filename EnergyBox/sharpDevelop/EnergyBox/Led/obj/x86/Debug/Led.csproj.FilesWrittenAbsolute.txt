@@ -1,0 +1,6 @@
+/home/pi/Documents/OCS/EnergyBox/sharpDevelop/EnergyBox/Led/bin/Debug/Led.dll.mdb
+/home/pi/Documents/OCS/EnergyBox/sharpDevelop/EnergyBox/Led/bin/Debug/Led.dll
+/home/pi/Documents/OCS/EnergyBox/sharpDevelop/EnergyBox/Led/obj/x86/Debug/Led.dll
+/home/pi/Documents/OCS/EnergyBox/sharpDevelop/EnergyBox/Led/obj/x86/Debug/Led.dll.mdb
+/home/pi/Documents/OCS/EnergyBox/sharpDevelop/EnergyBox/Led/bin/Debug/Beans.dll
+/home/pi/Documents/OCS/EnergyBox/sharpDevelop/EnergyBox/Led/bin/Debug/RPi.I2C.Net.dll

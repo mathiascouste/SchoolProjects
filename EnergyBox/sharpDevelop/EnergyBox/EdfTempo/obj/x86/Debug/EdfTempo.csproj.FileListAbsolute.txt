@@ -1,0 +1,6 @@
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EdfTempo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EdfTempo\bin\Debug\EdfTempo.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EdfTempo\bin\Debug\EdfTempo.pdb
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EdfTempo\bin\Debug\Beans.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EdfTempo\obj\x86\Debug\EdfTempo.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EdfTempo\obj\x86\Debug\EdfTempo.pdb

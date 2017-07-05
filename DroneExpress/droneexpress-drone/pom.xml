@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>fr.unice.polytech</groupId>
+		<artifactId>droneexpress</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<groupId>fr.unice.polytech</groupId>
+	<artifactId>droneexpress.drone</artifactId>
+	<version>1.0</version>
+	<packaging>bundle</packaging>
+	<name>droneexpress-drone</name>
+
+	<properties>
+		<!-- Version for dependencies (CXF + JUnit) -->
+		<junit.version>4.12</junit.version>
+		<cxf.version>3.1.2</cxf.version>
+		<!-- OSGI bundle information (needed to deploy on ServiceMix) -->
+		<bundle.symbolicName>${project.artifactId}</bundle.symbolicName>
+		<bundle.namespace>fr.unice.polytech</bundle.namespace>
+	</properties>
+
+	<dependencies>
+		<!-- DroneExpress Common Librairy -->
+		<dependency>
+			<groupId>fr.unice.polytech</groupId>
+			<artifactId>droneexpress.common</artifactId>
+			<version>1.0</version>
+		</dependency>
+		
+		<!-- JUnit for unit tests purpose -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- CXF HTTP/SOAP implementation -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxws</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<!-- Json data model -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20141113</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.jaxrs</groupId>
+			<artifactId>jackson-jaxrs-json-provider</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jsr310</artifactId>
+			<version>2.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.core</artifactId>
+			<version>4.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>javax.ws.rs-api</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<!-- Maven build plugin to create an OSGI bundle instead of a plain JAR 
+				file -->
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<extensions>true</extensions>
+				<version>2.5.4</version>
+				<executions>
+					<execution>
+						<id>bundle-manifest</id>
+						<phase>process-classes</phase>
+						<goals>
+							<goal>manifest</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<instructions>
+						<Embed-Dependency>*;scope=compile;inline=false</Embed-Dependency>
+						<Embed-Transitive>true</Embed-Transitive>
+						<Bundle-SymbolicName>${bundle.symbolicName}</Bundle-SymbolicName>
+						<Bundle-Version>${project.version}</Bundle-Version>
+						<Export-Package>
+							${bundle.namespace}.Webservice;version ="${project.version}"
+						</Export-Package>
+						<Import-Package>
+							javax.ws.rs,
+							javax.ws.rs.core,
+							javax.ws.rs.ext,
+							javax.jws,
+							javax.xml.bind,
+							javax.xml.bind.annotation,
+							org.osgi.service.blueprint;version="[1.0.0,2.0.0)"
+						</Import-Package>
+					</instructions>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

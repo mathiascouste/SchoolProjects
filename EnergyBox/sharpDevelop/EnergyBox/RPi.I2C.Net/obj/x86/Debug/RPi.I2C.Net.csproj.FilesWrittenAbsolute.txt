@@ -1,0 +1,2 @@
+/home/pi/Documents/OCS/EnergyBox/sharpDevelop/EnergyBox/RPi.I2C.Net/bin/Debug/RPi.I2C.Net.dll
+/home/pi/Documents/OCS/EnergyBox/sharpDevelop/EnergyBox/RPi.I2C.Net/obj/x86/Debug/RPi.I2C.Net.dll

@@ -1,0 +1,6 @@
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\LedLogic\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\LedLogic\bin\Debug\LedLogic.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\LedLogic\bin\Debug\LedLogic.pdb
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\LedLogic\bin\Debug\Beans.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\LedLogic\obj\x86\Debug\LedLogic.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\LedLogic\obj\x86\Debug\LedLogic.pdb

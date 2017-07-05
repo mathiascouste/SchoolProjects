@@ -1,0 +1,4 @@
+### récupération robot comme les paramètres (sortir du constructeur des cmd)
+
+ > delete de cmd ? => pas de new à chacune ?
+

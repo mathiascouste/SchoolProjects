@@ -1,0 +1,5 @@
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\RPi.I2C.Net\bin\Debug\RPi.I2C.Net.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\RPi.I2C.Net\bin\Debug\RPi.I2C.Net.pdb
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\RPi.I2C.Net\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\RPi.I2C.Net\obj\x86\Debug\RPi.I2C.Net.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\RPi.I2C.Net\obj\x86\Debug\RPi.I2C.Net.pdb

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+# SharpDevelop 3.2.1.6466
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyBox", "EnergyBox\EnergyBox.csproj", "{0AD0E389-C523-4291-8A59-8C75B092E6F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPi.I2C.Net", "RPi.I2C.Net\RPi.I2C.Net.csproj", "{7E71F4E2-5604-47D5-8310-EAB11C4B832C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Led", "Led\Led.csproj", "{59D7211E-FCF2-4A18-8A36-9556DA5C5729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relay", "Relay\Relay.csproj", "{93E5A368-37A3-48A4-B25C-3D0443F96464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrentSensor", "CurrentSensor\CurrentSensor.csproj", "{8FA22CC2-58E7-4F17-A149-6B961091FF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LedLogic", "LedLogic\LedLogic.csproj", "{A0BDEB3A-DE1D-431F-8A53-2CF91384DB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdfTempo", "EdfTempo\EdfTempo.csproj", "{D24314A2-945E-4B91-8FD4-C5A7E0EB264B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statistics", "Statistics\Statistics.csproj", "{ED489CA2-DE76-48FB-AAA8-7FB1D3C835AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringConverter", "StringConverter\StringConverter.csproj", "{E760ED73-8E7E-4753-BEB0-EC7033BA5063}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AD0E389-C523-4291-8A59-8C75B092E6F3}.Debug|x86.Build.0 = Debug|x86
+		{0AD0E389-C523-4291-8A59-8C75B092E6F3}.Debug|x86.ActiveCfg = Debug|x86
+		{0AD0E389-C523-4291-8A59-8C75B092E6F3}.Release|x86.Build.0 = Release|x86
+		{0AD0E389-C523-4291-8A59-8C75B092E6F3}.Release|x86.ActiveCfg = Release|x86
+		{7E71F4E2-5604-47D5-8310-EAB11C4B832C}.Debug|x86.Build.0 = Debug|x86
+		{7E71F4E2-5604-47D5-8310-EAB11C4B832C}.Debug|x86.ActiveCfg = Debug|x86
+		{7E71F4E2-5604-47D5-8310-EAB11C4B832C}.Release|x86.Build.0 = Release|x86
+		{7E71F4E2-5604-47D5-8310-EAB11C4B832C}.Release|x86.ActiveCfg = Release|x86
+		{59D7211E-FCF2-4A18-8A36-9556DA5C5729}.Debug|x86.Build.0 = Debug|x86
+		{59D7211E-FCF2-4A18-8A36-9556DA5C5729}.Debug|x86.ActiveCfg = Debug|x86
+		{59D7211E-FCF2-4A18-8A36-9556DA5C5729}.Release|x86.Build.0 = Release|x86
+		{59D7211E-FCF2-4A18-8A36-9556DA5C5729}.Release|x86.ActiveCfg = Release|x86
+		{93E5A368-37A3-48A4-B25C-3D0443F96464}.Debug|x86.Build.0 = Debug|x86
+		{93E5A368-37A3-48A4-B25C-3D0443F96464}.Debug|x86.ActiveCfg = Debug|x86
+		{93E5A368-37A3-48A4-B25C-3D0443F96464}.Release|x86.Build.0 = Release|x86
+		{93E5A368-37A3-48A4-B25C-3D0443F96464}.Release|x86.ActiveCfg = Release|x86
+		{8FA22CC2-58E7-4F17-A149-6B961091FF34}.Debug|x86.Build.0 = Debug|x86
+		{8FA22CC2-58E7-4F17-A149-6B961091FF34}.Debug|x86.ActiveCfg = Debug|x86
+		{8FA22CC2-58E7-4F17-A149-6B961091FF34}.Release|x86.Build.0 = Release|x86
+		{8FA22CC2-58E7-4F17-A149-6B961091FF34}.Release|x86.ActiveCfg = Release|x86
+		{A0BDEB3A-DE1D-431F-8A53-2CF91384DB2C}.Debug|x86.Build.0 = Debug|x86
+		{A0BDEB3A-DE1D-431F-8A53-2CF91384DB2C}.Debug|x86.ActiveCfg = Debug|x86
+		{A0BDEB3A-DE1D-431F-8A53-2CF91384DB2C}.Release|x86.Build.0 = Release|x86
+		{A0BDEB3A-DE1D-431F-8A53-2CF91384DB2C}.Release|x86.ActiveCfg = Release|x86
+		{D24314A2-945E-4B91-8FD4-C5A7E0EB264B}.Debug|x86.Build.0 = Debug|x86
+		{D24314A2-945E-4B91-8FD4-C5A7E0EB264B}.Debug|x86.ActiveCfg = Debug|x86
+		{D24314A2-945E-4B91-8FD4-C5A7E0EB264B}.Release|x86.Build.0 = Release|x86
+		{D24314A2-945E-4B91-8FD4-C5A7E0EB264B}.Release|x86.ActiveCfg = Release|x86
+		{ED489CA2-DE76-48FB-AAA8-7FB1D3C835AF}.Debug|x86.Build.0 = Debug|x86
+		{ED489CA2-DE76-48FB-AAA8-7FB1D3C835AF}.Debug|x86.ActiveCfg = Debug|x86
+		{ED489CA2-DE76-48FB-AAA8-7FB1D3C835AF}.Release|x86.Build.0 = Release|x86
+		{ED489CA2-DE76-48FB-AAA8-7FB1D3C835AF}.Release|x86.ActiveCfg = Release|x86
+		{E760ED73-8E7E-4753-BEB0-EC7033BA5063}.Debug|x86.Build.0 = Debug|x86
+		{E760ED73-8E7E-4753-BEB0-EC7033BA5063}.Debug|x86.ActiveCfg = Debug|x86
+		{E760ED73-8E7E-4753-BEB0-EC7033BA5063}.Release|x86.Build.0 = Release|x86
+		{E760ED73-8E7E-4753-BEB0-EC7033BA5063}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

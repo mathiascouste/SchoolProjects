@@ -1,0 +1,6 @@
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EnergyBox\bin\Debug\EnergyBox.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EnergyBox\bin\Debug\EnergyBox.pdb
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EnergyBox\bin\Debug\Beans.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EnergyBox\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EnergyBox\obj\x86\Debug\EnergyBox.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\EnergyBox\obj\x86\Debug\EnergyBox.pdb

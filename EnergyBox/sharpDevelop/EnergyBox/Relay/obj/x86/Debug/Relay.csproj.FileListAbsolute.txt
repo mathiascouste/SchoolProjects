@@ -1,0 +1,8 @@
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\Relay\bin\Debug\Relay.pdb
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\Relay\bin\Debug\Beans.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\Relay\bin\Debug\RPi.I2C.Net.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\Relay\bin\Debug\RPi.I2C.Net.pdb
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\Relay\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\Relay\obj\x86\Debug\Relay.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\Relay\obj\x86\Debug\Relay.pdb
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\Relay\bin\Debug\Relay.dll

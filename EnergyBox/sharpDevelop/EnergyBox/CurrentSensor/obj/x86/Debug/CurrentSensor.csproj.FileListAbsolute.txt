@@ -1,0 +1,8 @@
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\CurrentSensor\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\CurrentSensor\bin\Debug\CurrentSensor.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\CurrentSensor\bin\Debug\CurrentSensor.pdb
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\CurrentSensor\bin\Debug\Beans.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\CurrentSensor\obj\x86\Debug\CurrentSensor.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\CurrentSensor\obj\x86\Debug\CurrentSensor.pdb
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\CurrentSensor\bin\Debug\RPi.I2C.Net.dll
+D:\Document\EnergyBox\sharpDevelop\EnergyBox\CurrentSensor\bin\Debug\RPi.I2C.Net.pdb

@@ -1,0 +1,63 @@
+Class cellule {
+	ArrayList<Cellule> neighbours
+	boolean etat;      //true = vivant
+	boolean etatPrecedent
+	int lectures = 0;
+	int ecritures = 0;
+	int date;
+	
+	Cellule ecriveur;
+	List<Cellule> lecteurs;
+	
+	public void action() {
+		if(voisinsDateOk()) {
+			int voisinVivants = 0;
+			for(Cellule c : neighbours) {
+			   if(c.lire() == true) {
+				 voisinVivants++;
+			   }
+			}
+			switch(voisinVivants) {
+					case 3: this.ecrire(true); break;
+					case 2: this.ecrire(etat); break;
+					case 1: this.ecrire(false); break; 
+			}
+			date++;
+			for(Cellule c : neighbours) {
+			   c.notify();
+			}
+		} else {
+			wait();
+		}
+	}
+	
+	
+	public Etat lire(Cellule c) {
+			lecteurs.add(c);
+		if(ecriveur == null) {
+			lecteurs.remove(c);
+		   return etat;
+		}	
+		
+		else {
+			wait();
+			lecteurs.remove(c);
+		}
+	}
+	
+	
+	public ecrire(Etat etat, Cellule ecriveur) {
+		if(lectures == 0 && ecritures == 0) {
+			this.ecriveur = ecriveur;
+			this.etat = etat;
+			ecriveur = null;
+			notifyAll();
+		}
+		else{
+			wait();
+		}
+		
+		
+	}
+	
+}

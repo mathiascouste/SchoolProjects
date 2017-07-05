@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+#!/bin/bash
+
+mono wcomp/bin/ContainerMonoLinux.exe -n EnergyBox -r wcomp/bin/ -l $1
+=======
+#!/bin/bash
+
+mono wcomp/bin/ContainerMonoLinux.exe -n EnergyBox -r wcomp/bin/ -l $1 -p 47750
+
+>>>>>>> 07fb7e68b9eeac90f60332d05abee92056278c83
